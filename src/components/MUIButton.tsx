@@ -1,4 +1,4 @@
-import { Stack, Button, IconButton } from "@mui/material";                   
+import { Stack, Button, IconButton, ButtonGroup } from "@mui/material";                   
 import AddToDriveOutlinedIcon from "@mui/icons-material/AddToDriveOutlined";
 import AttachmentOutlinedIcon from "@mui/icons-material/AttachmentOutlined";
 import CelebrationOutlinedIcon from "@mui/icons-material/CelebrationOutlined";
@@ -29,7 +29,14 @@ export const MUIButton = () => {
       <Stack spacing={2} direction={"row"}>
         <Button variant="contained" startIcon={<AttachmentOutlinedIcon/>} disableRipple>Attach</Button>
         <Button variant="contained" endIcon={<AddToDriveOutlinedIcon/>} disableElevation>Add</Button>
-        <IconButton aria-label="celebration-button" color="warning" onClick={()=>{prompt("enter message!")}}><CelebrationOutlinedIcon/></IconButton>
+        <IconButton aria-label="celebration-button" color="warning" onClick={()=>{alert("Happy 🎉");}}><CelebrationOutlinedIcon/></IconButton>
+      </Stack>
+      <Stack direction={"row"}>
+        <ButtonGroup variant="contained" orientation="vertical" color="secondary" size="small" area-aria-label="button group">
+        <Button onClick={()=>{alert("Left Clicked ✨");}}>Left</Button>
+        <Button>Center</Button>
+        <Button>Right</Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );
