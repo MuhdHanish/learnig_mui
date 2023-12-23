@@ -1,5 +1,6 @@
 import './App.css'
-import { MUICard } from './components/MUICard'
+import { MUIAccordian } from './components/MUIAccordian'
+// import { MUICard } from './components/MUICard'
 // import { MUILayout } from './components/MUILayout'
 // import { MUIAutocomplete } from './components/MUIAutoComplete'
 // import { MUIRating } from './components/MUIRating'
@@ -25,7 +26,8 @@ function App() {
         {/* <MUIRating/> */}
         {/* <MUIAutocomplete/> */}
         {/* <MUILayout/> */}
-        <MUICard/>
+        {/* <MUICard/> */}
+        <MUIAccordian/>
       </div>
     </>
   )
