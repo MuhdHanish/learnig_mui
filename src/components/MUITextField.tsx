@@ -9,7 +9,7 @@ export const MUITextField = () => {
   return (
     <Stack spacing={4}>
         <Stack spacing={2} direction={"row"}>
-            <TextField label="Name" variant="outlined"/>
+            <TextField label="Name" variant="outlined" />
             <TextField label="Name" variant="filled"/>
             <TextField label="Name" variant="standard"/>
         </Stack>
@@ -33,7 +33,8 @@ export const MUITextField = () => {
             error={!password} helperText={!password ? `Requried` : `Do not share!`}
             InputProps={{endAdornment:<InputAdornment position="end">
             <IconButton aria-label="eye icon" onClick={()=>{setShow(!show)}}>
-                {show ? <VisibilityOffIcon/> : <VisibilityIcon/>}</IconButton>
+                {show ? <VisibilityOffIcon/> : <VisibilityIcon/>}
+            </IconButton>
             </InputAdornment>}}/>
         </Stack>
     </Stack>
