@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, FormControl, FormControlLabel, FormGroup, FormHelperText, FormLabel, Switch } from "@mui/material";
 
-const MUISwitch = () => {
+export const MUISwitch = () => {
     const [checked, setChecked] = useState<boolean>(false);
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setChecked(event.target.checked);  
@@ -64,5 +64,3 @@ const MUISwitch = () => {
     </Box>
   );
 }
-
-export default MUISwitch

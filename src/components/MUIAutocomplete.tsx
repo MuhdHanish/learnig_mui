@@ -9,7 +9,7 @@ type Skill = {
 const skills = ["HTML", "CSS", "JAVASCRIPT", "TYPESCRIPT", "PYTHON"];
 const skillsOption = skills.map((skill, index) =>({ id: index + 1 , label: skill }));
 
-const MUIAutocomplete = () => {
+export const MUIAutocomplete = () => {
   const [values, setValues] = useState<string[]>([]);
     const [skill, setSkill] = useState<Skill | null>(null);
   const handleChange = (
@@ -45,4 +45,4 @@ const MUIAutocomplete = () => {
   );
 };
 
-export default MUIAutocomplete;
+

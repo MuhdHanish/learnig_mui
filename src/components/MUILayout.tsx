@@ -1,6 +1,6 @@
 import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 
-const MUILayout = () => {
+export const MUILayout = () => {
     return (
       <Paper sx={{padding:"32px"}} elevation={4}>
         <Stack
@@ -42,5 +42,3 @@ const MUILayout = () => {
       </Paper>
     );
 };
-
-export default MUILayout;

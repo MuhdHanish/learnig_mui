@@ -3,7 +3,7 @@ import { SyntheticEvent, useState } from "react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
-const MUIRating = () => {
+export const MUIRating = () => {
   const [value, setValue] = useState<number | null>(2.5);
   const handleChange = (
     _event: SyntheticEvent<Element, Event>,
@@ -27,5 +27,3 @@ const MUIRating = () => {
     </Stack>
   );
 };
-
-export default MUIRating;

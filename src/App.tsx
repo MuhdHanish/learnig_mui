@@ -1,9 +1,9 @@
 import './App.css'
-import MUILayout from './components/MUILayout'
-// import MUIAutocomplete from './components/MUIAutoComplete'
-// import MUIRating from './components/MUIRating'
-// import MUISwitch from './components/MUISwitch'
-// import MUICheckBox from './components/MUICheckBox'
+// import { MUILayout } from './components/MUILayout'
+// import { MUIAutocomplete } from './components/MUIAutoComplete'
+// import { MUIRating } from './components/MUIRating'
+// import { MUISwitch } from './components/MUISwitch'
+// import { MUICheckBox } from './components/MUICheckBox'
 // import { MUIRadioButton } from './components/MUIRadioButton'
 // import { MUISelectField } from './components/MUISelectField'
 // import { MUITextField } from './components/MUITextField'
@@ -23,7 +23,7 @@ function App() {
         {/* <MUISwitch/> */}
         {/* <MUIRating/> */}
         {/* <MUIAutocomplete/> */}
-        <MUILayout/>
+        {/* <MUILayout/> */}
       </div>
     </>
   )

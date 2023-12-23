@@ -11,7 +11,7 @@ import {
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 
-const MUICheckBox = () => {
+export const MUICheckBox = () => {
   const [acceptTnC, setAcceptTnC] = useState<boolean>(false);
   const [skills, setSkills] = useState<string[]>([]);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -89,5 +89,3 @@ const MUICheckBox = () => {
     </Box>
   );
 };
-
-export default MUICheckBox;
