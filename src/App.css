@@ -1,4 +1,7 @@
+body {
+  background-color: #eeee;
+}
+
 .App {
   padding: 4rem;
-  color: black;
 }
