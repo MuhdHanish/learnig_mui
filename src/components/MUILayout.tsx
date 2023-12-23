@@ -1,8 +1,8 @@
-import { Box } from "@mui/material";
+import { Box, Stack, Divider } from "@mui/material";
 
 const MUILayout = () => {
   return (
-    <>
+      <Stack sx={{border:"1px solid"}} direction={"column"} spacing={2} divider={<Divider orientation="horizontal" flexItem/>}>
       <Box
         sx={{
           backgroundColor: "primary.main",
@@ -26,7 +26,7 @@ const MUILayout = () => {
       >
         Flex box
       </Box>
-    </>
+    </Stack>
   );
 };
 
