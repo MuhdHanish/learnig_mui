@@ -1,5 +1,6 @@
 import './App.css'
-import { MUISpeedDial } from './components/MUISpeedDial'
+import { MUIBottomNavigation } from './components/MUIBottomNavigation'
+// import { MUISpeedDial } from './components/MUISpeedDial'
 // import { MUIDrawer } from './components/MUIDrawer'
 // import { MUIBreadcrumbs } from './components/MUIBreadcrumbs'
 // import { MUILink } from './components/MUILink'
@@ -39,7 +40,8 @@ function App() {
         {/* <MUILink/> */}
         {/* <MUIBreadcrumbs/> */}
         {/* <MUIDrawer/> */}
-        <MUISpeedDial/>
+        {/* <MUISpeedDial/> */}
+        <MUIBottomNavigation/>
       </div>
     </>
   )
